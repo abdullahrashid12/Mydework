@@ -1,0 +1,110 @@
+body{
+	background: pink;
+}
+
+li{
+	border: 1px solid black;
+
+}
+
+h1{
+	font-size: 50px;
+	background: red;
+	color: green;
+}
+.finished {
+	text-decoration: line-through;
+	font-size: 20px;
+	color: white;
+}
+
+#ongoing1{
+	background: purple;
+	font-size: 20px;
+}
+
+#ongoing2{
+	background: yellow;
+	font-size: 20px;
+}
+
+#ongoing3{
+	background: blue;
+	font-size: 20px;
+	}
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+
+@keyframes scale {
+  0% {
+    transform: scale(.5);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+
+.box {
+  font: 20px Arial;
+  padding: 75px 25px;
+  background-color: red;
+  display: inline-block;
+  color: white;
+  margin: 50px;
+  animation: scale 1s ease-out 2s alternate infinite both;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}

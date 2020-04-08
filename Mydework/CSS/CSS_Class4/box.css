@@ -1,0 +1,55 @@
+
+
+h1	{
+	text-align: center;
+}
+
+
+td {
+	width: 500px;
+	height: 500px;
+
+    
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+
+}
+}
+
+table{
+	margin: centern;
+}
+
+/*
+
+.vertical {
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+		padding: 200px 100px 200px 100px;
+
+
+}
+
+.horizontal
+{
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+  	
+}
+
+*/
+
+p	{
+	/*
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	border-top: 2px solid red;
+    border-bottom: 2px solid red;*/
+
+    border: 2px solid red;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}

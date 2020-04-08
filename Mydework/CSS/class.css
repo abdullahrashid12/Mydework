@@ -1,0 +1,36 @@
+h1{	
+color: #32a2a8;
+padding-bottom: 50px;
+font-family: "Playfair";
+font-size: 25px;
+/*
+border-width: 5px;
+border-style: solid;*/
+border: 2px solid rgb(255,100;8.0);
+}
+
+li{
+	color: #15b310;
+	font-family: "Effra";
+	font-size: 25px;
+}
+
+h4{
+	color: #e31742;
+	font-family: "Effra";
+	font-size: 25px;
+	background: #b34e10;
+}
+
+h2{
+	color: #0cf027;
+}
+
+body{
+
+	background: pink;
+	/*
+	background: url(https://img.favpng.com/2/3/14/paper-wood-grain-drawing-pattern-png-favpng-9XPtUCw81Frr4UtUX9NPwkSZs.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
